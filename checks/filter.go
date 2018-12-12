@@ -3,7 +3,7 @@ package checks
 import (
 	"time"
 
-	"github.com/globalsign/certlint/certdata"
+	"github.com/bryanpitcher/certlint/certdata"
 )
 
 // Filter defines condition on when a check is performed or not

@@ -3,7 +3,7 @@ package asn1
 import (
 	"encoding/asn1"
 
-	"github.com/globalsign/certlint/errors"
+	"github.com/bryanpitcher/certlint/errors"
 )
 
 type Linter struct {

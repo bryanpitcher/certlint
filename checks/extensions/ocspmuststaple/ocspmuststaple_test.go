@@ -4,7 +4,7 @@ import (
 	"crypto/x509/pkix"
 	"testing"
 
-	"github.com/globalsign/certlint/certdata"
+	"github.com/bryanpitcher/certlint/certdata"
 )
 
 // TestCheck tests the OCSP Must Staple extension Check() behaves as expected

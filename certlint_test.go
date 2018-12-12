@@ -12,9 +12,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/globalsign/certlint/asn1"
-	"github.com/globalsign/certlint/certdata"
-	"github.com/globalsign/certlint/checks"
+	"github.com/bryanpitcher/certlint/asn1"
+	"github.com/bryanpitcher/certlint/certdata"
+	"github.com/bryanpitcher/certlint/checks"
 	"github.com/golang/groupcache/lru"
 )
 

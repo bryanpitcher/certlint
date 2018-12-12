@@ -24,14 +24,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/globalsign/certlint/asn1"
-	"github.com/globalsign/certlint/certdata"
-	"github.com/globalsign/certlint/checks"
-	"github.com/globalsign/certlint/errors"
+	"github.com/bryanpitcher/certlint/asn1"
+	"github.com/bryanpitcher/certlint/certdata"
+	"github.com/bryanpitcher/certlint/checks"
+	"github.com/bryanpitcher/certlint/errors"
 
 	// Import all available checks
-	_ "github.com/globalsign/certlint/checks/certificate/all"
-	_ "github.com/globalsign/certlint/checks/extensions/all"
+	_ "github.com/bryanpitcher/certlint/checks/certificate/all"
+	_ "github.com/bryanpitcher/certlint/checks/extensions/all"
 
 	"github.com/cloudflare/cfssl/log"
 	"github.com/cloudflare/cfssl/revoke"

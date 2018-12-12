@@ -6,8 +6,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/globalsign/certlint/certdata"
-	"github.com/globalsign/certlint/errors"
+	"github.com/bryanpitcher/certlint/certdata"
+	"github.com/bryanpitcher/certlint/errors"
 )
 
 var extMutex = &sync.Mutex{}

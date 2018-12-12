@@ -1,9 +1,9 @@
 package internal
 
 import (
-	"github.com/globalsign/certlint/certdata"
-	"github.com/globalsign/certlint/checks"
-	"github.com/globalsign/certlint/errors"
+	"github.com/bryanpitcher/certlint/certdata"
+	"github.com/bryanpitcher/certlint/checks"
+	"github.com/bryanpitcher/certlint/errors"
 )
 
 const checkName = "Internal Names and IP addresses Check"

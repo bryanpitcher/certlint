@@ -3,8 +3,8 @@ package checks
 import (
 	"sync"
 
-	"github.com/globalsign/certlint/certdata"
-	"github.com/globalsign/certlint/errors"
+	"github.com/bryanpitcher/certlint/certdata"
+	"github.com/bryanpitcher/certlint/errors"
 )
 
 var certMutex = &sync.Mutex{}

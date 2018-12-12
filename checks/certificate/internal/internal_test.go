@@ -7,7 +7,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/globalsign/certlint/certdata"
+	"github.com/bryanpitcher/certlint/certdata"
 )
 
 func TestInternal(t *testing.T) {

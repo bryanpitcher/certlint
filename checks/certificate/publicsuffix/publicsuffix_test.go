@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/globalsign/certlint/certdata"
+	"github.com/bryanpitcher/certlint/certdata"
 )
 
 func TestPublicSuffix(t *testing.T) {
