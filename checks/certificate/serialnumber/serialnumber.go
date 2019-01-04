@@ -1,6 +1,7 @@
 package serialnumber
 
 import (
+	"fmt"
 	"math/big"
 	"time"
 
@@ -20,7 +21,7 @@ func Check(d *certdata.Data) *errors.Errors {
 	var e = errors.New(nil)
 
 	if d.Cert.SerialNumber.Cmp(big.NewInt(0)) == -1 {
-		e.Err("Certificate serial number MUST be a positive integer (%d)", d.Cert.SerialNumber)
+		e.Err(fmt.Sprintf("Certificate serial number MUST be a positive integer (%d)", d.Cert.SerialNumber))
 	}
 
 	// Remaining checks are not relevant for CA certificates
